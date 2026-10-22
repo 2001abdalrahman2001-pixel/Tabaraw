@@ -569,7 +569,7 @@
         }
 
         function confirmDonation() {
-            const telegramUser = "YOUR_USERNAME_HERE";
+            const telegramUser = "Abdalrahman_0";
             const text = `🌟 تبرع جديد 🌟%0A----------------%0A📦 النوع: ${selectedCategory}%0A📍 المدينة: ${donationData.city}%0A💰 المبلغ: ${finalAmount}$%0A👤 الاسم: ${donationData.name}%0A📱 واتساب: ${donationData.phone || "غير محدد"}%0A💳 الوسيلة: ${donationData.method}%0A----------------%0A📍 يرجى إرسال لقطة شاشة للإيصال للتأكيد.`;
             window.location.href = `https://t.me/${telegramUser}?text=${text}`;
         }
